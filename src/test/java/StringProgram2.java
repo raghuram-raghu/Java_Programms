@@ -13,7 +13,7 @@ public class StringProgram2 {
 
             if(c>='A' && c<='Z'){
 
-                str2=str2+" "+c;
+                str2=str2+" "+c+" ";
             }else{
 
                 str2=str2+c;

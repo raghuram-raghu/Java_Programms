@@ -9,7 +9,7 @@ public class Seleniulm_JavascriptExecutor {
 //
 // 
 //
-//    If an input field is disabled, you can inject text via JavaScript:
+//    If an input field is disabled, you can inject text via JavaScript into DOM(Data Object Model):
 //
 //    WebElement input = driver.findElement(By.id("disabled_input"));
 //
