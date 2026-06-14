@@ -9,7 +9,7 @@ public class randomMobile {
 
         for(int i=0;i<=10;i++) {
 
-            int num = Ran.nextInt(2) + 7;
+//            int num = Ran.nextInt(2) + 7;
 
             int num1 =9;
 

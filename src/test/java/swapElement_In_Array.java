@@ -5,12 +5,16 @@ public class swapElement_In_Array {
 
     public static void main(String[] argus) {
 
-        int[] arr = {9,8,0, 7, 6, 5, 0,8,0, 4, 3, 2, 4};
+        int[] arr = {9,8,0,7,6,5,0,8,0,4,3,2,4};
 
         int rValue=0;
 
+        int num   = 9874567;
+        int sum   = 0;
+        int rev =0;
+
         for(int i=0;i<arr.length;i++){
- 
+
             for(int j=i+1;j<arr.length;j++){
 
             int fValue = arr[i];

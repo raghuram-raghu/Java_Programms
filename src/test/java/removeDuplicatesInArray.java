@@ -1,6 +1,7 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class removeDuplicatesInArray {
 
@@ -10,8 +11,29 @@ public class removeDuplicatesInArray {
 
             Arrays.sort(arr);
 
+        ArrayList <Integer> aa = new ArrayList(Arrays.asList(arr));
 
-//        Set set = new HashSet();
+        Set li = new HashSet();
+
+        Set set = new HashSet();
+
+        for(int i=0;i<aa.size();i++){
+
+            int nn = aa.get(i);
+
+            if(!li.contains(nn)){
+
+                li.add(nn);
+
+            }else{
+
+                set.add(nn);
+            }
+        }
+
+        System.out.println(set);
+        System.out.println(li);
+
 //
 //        for (int a:arr){
 //
@@ -22,10 +44,10 @@ public class removeDuplicatesInArray {
 
 
 
-        Set <Integer> s = new HashSet<Integer> (Arrays.asList(arr));
+//        Set <Integer> s = new HashSet<Integer> (Arrays.asList(arr));
 
 
-        System.out.println(s);
+//        System.out.println(s);
 
 
     }

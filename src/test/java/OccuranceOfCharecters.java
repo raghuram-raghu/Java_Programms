@@ -1,13 +1,16 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class OccuranceOfCharecters {
 
     public static void main (String [] argus){
 
-        String str = "Govindha Govindha r";
+        String str = "Govindha Gor";
 
-        Map<Character,Integer> map = new HashMap<>();
+        Map<Character,Integer> map = new LinkedHashMap<>();
+
+//        Map<Character,Integer> map = new LinkedHashMap<>();
 
 //        char [] c = str.toCharArray();
 
@@ -24,10 +27,10 @@ public class OccuranceOfCharecters {
 
         for(Map.Entry<Character,Integer> m:map.entrySet()){
 
-            if(m.getValue()==1) {
+            if(m.getKey()!=' ' && m.getValue()==1 ) {
 
                 System.out.println(m.getKey() + "  key value is   =  " + m.getValue());
-
+//break;
             }
     }
 }}

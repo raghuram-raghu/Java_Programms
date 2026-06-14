@@ -11,9 +11,9 @@ public class  reverseString1 {
 
         for(String ss:str.split(" ")){
 //
-//            StringBuilder sb = new StringBuilder(ss);
-//
-//            sb.reverse();
+//           StringBuilder sb = new StringBuilder(ss);
+////
+//            String ssss =  sb.reverse().toString();
 //
 //            Each_R_Reverse =sb + " "+Each_R_Reverse;
 //

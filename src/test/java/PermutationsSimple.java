@@ -7,9 +7,10 @@
 
         public static void permute(String s, String res) {
 
-            if (s.isEmpty()) {
+            if (s.isEmpty()) {      //s.length()==0)
                 System.out.println(res);
 
+                return;
             }
 
             for (int i = 0; i < s.length(); i++) {

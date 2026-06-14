@@ -13,7 +13,6 @@ public class SumOfNumbersInt {
 
             System.out.println("Sum of digits: " + sum); // Output: 39
 
-
             String numbers = "876567";
             int summ = 0;
             String rev = "";

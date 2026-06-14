@@ -5,16 +5,16 @@ public class ProductOfNumbers {
         int num =10;
 
 
-//        for(int i=1;i<=num;i++){
-//
-//            if(num%i==0){
-//
-//                int j = num/i;
-//
-//                System.out.println(i+" *"+j+" "+"= "+num);
-//
-//            }
-//        }
+        for(int i=1;i<=num;i++){
+
+            if(num%i==0){
+
+                int j = num/i;
+
+                System.out.println(i+" *"+j+" "+"= "+num);
+
+            }
+        }
 
 
         for (int i =0;i<num;i++){
